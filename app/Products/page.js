@@ -26,9 +26,11 @@ const Page = () => {
           <Announcement />
           <Navbar />
           <div>
-            <h1 className={`py-[3vw] px-[9vw] font-bold text-3xl`}>Dresses</h1>
-            <div className="w-full flex items-center justify-between px-[9vw]">
-              <div className="flex gap-3">
+            <h1 className={`py-[3vw] px-[9vw] font-bold text-2xl md:text-3xl`}>
+              Dresses
+            </h1>
+            <div className="w-full flex flex-col sm:flex-row  justify-between px-[9vw]">
+              <div className="flex flex-col sm:flex-row  gap-3">
                 <span className="text-xl font-semibold">Filter Product: </span>
                 <select className="p-2 border border-gray-300 rounded">
                   <option disabled selected>
@@ -41,7 +43,7 @@ const Page = () => {
                   <option>Yellow</option>
                   <option>Green</option>
                 </select>
-                <select className="p-2 border border-gray-300 rounded">
+                <select className="p-2 border border-gray-300 rounded mt-2 sm:mt-0">
                   <option disabled selected>
                     Size
                   </option>
@@ -52,8 +54,8 @@ const Page = () => {
                   <option>XL</option>
                 </select>
               </div>
-              <div className="flex gap-3">
-                <span className="text-2xl font-bold">Sort Products:</span>
+              <div className="flex flex-col mt-4 sm:flex-row  gap-3 mt-2 sm:mt-0">
+                <span className="text-xl font-bold">Sort Products:</span>
                 <select className="p-2 border border-gray-300 rounded">
                   <option disabled selected>
                     Newest
@@ -63,6 +65,7 @@ const Page = () => {
                 </select>
               </div>
             </div>
+
             <Products />
             <Newsletter />
             <Footer />
