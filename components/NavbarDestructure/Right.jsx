@@ -16,12 +16,17 @@ const Right = () => {
   return (
     <div className={``}>
       <div
-        className={`flex items-center justify-between sm:justify-center gap-5 sm:gap-4  hidden sm:flex`}
+        className={`flex items-center justify-between sm:justify-center gap-5 sm:gap-4  `}
       >
-        <button>Register</button>
-        <button>Sign up</button>
+        <button className="hidden sm:flex">Register</button>
+        <button className="hidden sm:flex">Sign up</button>
         <BsFillCartFill size={16} />
+        <MenuIcon
+          className={`transition-transform transform rotate-0 sm:flex`}
+          onClick={toggleHamburger}
+        />
       </div>
+      {/* Show the MenuIcon only on small devices */}
 
       <div className={`md:hidden ${hamburger ? "" : "hidden"}`}>
         <CloseIcon
@@ -69,12 +74,6 @@ const Right = () => {
           </div>
         </div>
       </div>
-
-      {/* Show the MenuIcon only on small devices */}
-      <MenuIcon
-        className={`md:hidden transition-transform transform rotate-0 hover:rotate-45`}
-        onClick={toggleHamburger}
-      />
     </div>
   );
 };
