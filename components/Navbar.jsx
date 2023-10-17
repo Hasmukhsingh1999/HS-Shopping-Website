@@ -5,9 +5,9 @@ import Right from "./NavbarDestructure/Right";
 
 const Navbar = () => {
   return (
-    <div className={`h-[60px] w-full flex items-center cursor-pointer`}>
+    <div className={`h-[60px] w-full flex items-center  justify-center cursor-pointer `}>
       <div
-        className={`py-[10px] px-[20px] w-full flex  items-center justify-between`}
+        className={`flex w-full justify-between  px-[9vw] items-center`}
       >
         <Left />
         <Center />
@@ -18,3 +18,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

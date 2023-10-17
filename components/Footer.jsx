@@ -5,8 +5,8 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-6 px-[4vw]">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between">
-        <div className="w-full md:w-1/2 text-center md:text-left">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between gap-4">
+        <div className="w-full md:w-1/2  md:text-left">
           <h1 className="text-3xl font-semibold">HS</h1>
           <p className="text-gray-400 mt-4 w-full md:w-[30vw] text-justify md:text-left">
             Welcome to HS online shopping, your premier destination for online
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-4 flex justify-between items-center w-full">
-        <p> &copy; 2023 HS Online Shopping. All rights reserved.</p>
+        <p className={`md:text-2xl text-sm`}> &copy; 2023 HS Online Shopping. All rights reserved.</p>
         <div className="flex gap-2">
           <Facebook className="text-2xl" />
           <Instagram className="text-2xl" />

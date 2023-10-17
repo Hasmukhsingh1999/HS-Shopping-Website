@@ -8,12 +8,12 @@ const Left = () => {
   };
 
   return (
-    <div className={`flex items-center gap-2 flex-1 justify-center`}>
+    <div className={`flex items-center gap-2 justify-center`}>
       <p className={`font-bold`}>EN</p>
       <input
         type="search"
         name="search"
-        className={`rounded-3xl py-2 px-4 border`}
+        className={`rounded-3xl py-2 px-4 border sm:flex hidden `}
         placeholder="Search..."
         value={searchText}
         onChange={handleSearchChange}
@@ -23,3 +23,4 @@ const Left = () => {
 };
 
 export default Left;
+
