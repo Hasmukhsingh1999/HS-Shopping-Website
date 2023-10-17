@@ -37,4 +37,20 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 live link : https://hs-shopping-website.vercel.app/
 
+![Screenshot (128)](https://github.com/Hasmukhsingh1999/HS-Shopping-Website/assets/94060756/170cd660-a6c6-4704-a5bb-09e01e0ebc60)
+
+
+![Screenshot (129)](https://github.com/Hasmukhsingh1999/HS-Shopping-Website/assets/94060756/59084aa3-017e-4192-9805-8fadc1c8e95e)
+
+
+![Screenshot (130)](https://github.com/Hasmukhsingh1999/HS-Shopping-Website/assets/94060756/9a34bfb3-6f4a-4cf2-a9b5-71e2f98d0acb)
+
+
+![Screenshot (131)](https://github.com/Hasmukhsingh1999/HS-Shopping-Website/assets/94060756/48928665-6dd7-4521-800f-1e42d7479a67)
+
+
+![Screenshot (132)](https://github.com/Hasmukhsingh1999/HS-Shopping-Website/assets/94060756/c23d70a4-76e1-4bb0-aa08-2952ba01064c)
+
+![Screenshot (133)](https://github.com/Hasmukhsingh1999/HS-Shopping-Website/assets/94060756/39066e87-f5e9-4a31-879b-512a660db1c7)
+
 
